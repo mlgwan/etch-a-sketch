@@ -1,0 +1,37 @@
+#canvas {
+    width: 1000;
+    height: 1000;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+.square {
+    width: 32px;
+    height: 32px;
+    margin: 0px 1px 0px 1px;
+    outline: 1px solid black;
+}
+
+.column {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.left-border{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+}
+
+.right-border{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+}
+
+button {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
