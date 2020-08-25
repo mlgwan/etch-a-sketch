@@ -1,6 +1,4 @@
 #canvas {
-    width: 1000;
-    height: 1000;
     display: flex;
     flex-wrap: nowrap;
     align-content: flex-start;
@@ -10,6 +8,7 @@
     width: 32px;
     height: 32px;
     margin: 0px 1px 0px 1px;
+    background-color: rgb(255,255,255);
     outline: 1px solid black;
 }
 
@@ -34,4 +33,9 @@ button {
     margin-top: 100px;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+
+body {
+    width: 1000px;
+    height: 1000px;
 }
