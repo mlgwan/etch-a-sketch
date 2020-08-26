@@ -52,7 +52,7 @@ function clearCanvas(){
         alert("Please input a number");
         clearCanvas();
     }
-    else if (parseInt(input) > maxGridAmount){
+    else if (parseInt(input) > maxGridAmount || parseInt(input) < 1){
         alert(`Please pick a number between 1 and ${maxGridAmount}`);
         clearCanvas();
     }
